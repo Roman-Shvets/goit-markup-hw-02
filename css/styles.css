@@ -1,0 +1,216 @@
+:root{
+    --primary-back-color:#FFFFFF;
+    --second-back-color:#F5F4FA;
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --contact-text-color:rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+    --hero-color:#2F303A;
+    --deep-black-color:#000000;
+    --filter-button-color:#F5F4FA;
+}
+
+body{
+    color:var(--primary-text-color); 
+    background-color:var(--primary-back-color);
+    font-family: Roboto, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo-1{
+    color:var(--accent-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size:26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-2{
+    color:var(--deep-black-color);
+}
+
+.logo-3{
+    color:var(--primary-back-color);
+}
+
+ .logo-1:hover,
+ .logo-1:focus {
+     color: var(--accent-color);
+     text-decoration: underline; 
+}
+
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color:var(--title-text-color);
+}
+
+.site-nav:hover, 
+.site-nav:focus{
+    color: var(--accent-color);
+}
+
+.site-nav.current{
+    color: var(--accent-color);
+}
+
+.site-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.site-contact:hover,
+.site-contact:focus {
+    color: var(--accent-color); 
+}
+
+.hero {
+    background-color:var(--hero-color);
+}
+
+.hero h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-back-color); 
+}
+
+.hero button {
+    font-family: inherit;
+    background:var(--accent-color);
+    color:var(--primary-back-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px; 
+}
+
+.advant-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.descr {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color:var(--title-text-color);
+}
+
+.our-team{
+    background-color:var(--second-back-color);
+}
+
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--title-text-color);
+}
+
+.team-position{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+footer{
+    background-color:var(--hero-color); 
+}
+
+.studio-address{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--primary-back-color);
+}
+
+.studio-contact{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--contact-text-color);
+}
+
+.studio-address:hover,
+.studio-address:focus,
+.studio-contact:hover,
+.studio-contact:focus{
+    color: var(--accent-color);
+}
+
+.portfolio button {
+    font-family: inherit;
+    background: var(--filter-button-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.portfolio button:hover,
+.portfolio button:focus {
+    background: var(--accent-color);
+    color:var(--primary-back-color);
+}
+
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color:var(--title-text-color);
+}
+
+.project-type{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}       

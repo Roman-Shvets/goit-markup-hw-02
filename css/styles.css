@@ -42,12 +42,6 @@ button {
     color:var(--primary-back-color);
 }
 
- .logo-1:hover,
- .logo-1:focus {
-     color: var(--accent-color);
-     text-decoration: underline; 
-}
-
 .site-nav{
     font-weight: 500;
     font-size: 14px;
